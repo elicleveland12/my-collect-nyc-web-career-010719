@@ -3,7 +3,10 @@ def my_collect(array)
     i = 0 
     while i < array.length 
       yield array[i]
-      
+      i = i + 1 
+    end 
+  else 
+    puts "No block was given!"
   
 end 
 

@@ -7,6 +7,6 @@ def my_collect(array)
     end 
   else 
     puts "No block was given!"
-  
+  end 
 end 
 
